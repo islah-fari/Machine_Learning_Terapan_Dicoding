@@ -83,3 +83,30 @@ Pembagian dataset dilakukan menjadi dua yaitu data training dan data test dengan
 ![image](https://github.com/user-attachments/assets/be3bb4a4-d775-4119-8054-43dbfcacd355)
 
 Normalisasi data dilakukan dengan tujuan untuk menyesuaikan skala data sehingga tidak terjadi bias pada feature yang akan di proses oleh model. Tahap ini mengubah data menjadi skala 0 sampai 1
+
+# Build & Evaluate Model
+## Build Model
+Pada project ini akan digunakan dua algoritma yaitu Random Forest dan K-Nearest Neighbor dengan memanfaatkan hyperparameter.
+![image](https://github.com/user-attachments/assets/ad3e6bf3-d255-4c21-9528-dd73d6f18519)
+![image](https://github.com/user-attachments/assets/892b124a-5d1c-49a2-824d-f0ad68b7691f)
+
+## Evaluation
+Evaluasi model yang digunakan adalah sebagai berikut.
+* Accuracy : Untuk melihat seberapa baik hasil prediksi model dengan cara membandingkan hasil prediksi dan data aktual.
+* Precision : Untuk melihat seberapa baik model dalam memprediksi suatu kelas/label.
+* Recall : Untuk melihat seberapa baik model memprediksi data yang benar.
+* F1-Score : Merupakan perhitungan rata-rata antara precision dan recall
+* Confusion Matrix : Untuk melihat model cenderung lebih banyak berhasil memprediksi label
+
+### Random Forest
+![image](https://github.com/user-attachments/assets/b6571eae-682c-40df-a979-3f0efd017165)
+![Untitled](https://github.com/user-attachments/assets/50266db8-2d80-40e7-92b4-28d261faf3e0)
+
+### K-Nearest Neighbor
+![image](https://github.com/user-attachments/assets/e1e1fda9-dee1-47fb-9cc2-2ca46a17f54f)
+![Untitled](https://github.com/user-attachments/assets/3ec0c511-7a2f-45af-9480-8040da072203)
+
+# Kesimpulan
+Berdasarkan hasil yang diperoleh, berikut kesimpulan dari project ini.
+* Model berhasil dibuat dengan menggunakan dua algoritma yang berbeda yaitu Random Forest dan K-Nearest Neighbor dengan beberapa tahapan untuk menunjang proses pelatihan model. 
+* Berdasarkan hasil evaluasi model bahwa algoritma terbaik adalah Random Forest yang mendapatkan akurasi sebesar 94%.
