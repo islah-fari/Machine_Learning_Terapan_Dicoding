@@ -84,7 +84,7 @@ Pembagian dataset dilakukan menjadi dua yaitu data training dan data test dengan
 
 Normalisasi data dilakukan dengan tujuan untuk menyesuaikan skala data sehingga tidak terjadi bias pada feature yang akan di proses oleh model. Tahap ini mengubah data menjadi skala 0 sampai 1
 
-# Build & Evaluate Model
+# Model Development
 ## Build Model
 Pada project ini akan digunakan dua algoritma yaitu Random Forest dan K-Nearest Neighbor dengan memanfaatkan hyperparameter.
 ![image](https://github.com/user-attachments/assets/ad3e6bf3-d255-4c21-9528-dd73d6f18519)
